@@ -16,6 +16,6 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @ConditionalOnClass(MystarterCondition.class)
 @ConditionalOnMissingBean(MystartService.class)
-//@ConditionalOnProperty(name = "mystarter.enable",value = "true")
+@ConditionalOnProperty(prefix = "mystarter", name = "enable", havingValue = "true")
 public @interface ConditionOnMystarter {
 }

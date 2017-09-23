@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
 
     private final MystartService mystartService;
-
+    //注入MystartService
     @Autowired
     public MyController(MystartService mystartService) {
         this.mystartService = mystartService;

@@ -7,6 +7,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  */
 @ConfigurationProperties(prefix = "mystarter")
 public class MystarterConfig {
+
     private String version;
     private String name;
 

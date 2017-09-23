@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.example.MystarterConfig",
+      "name": "mystarter",
+      "type": "com.example.MystarterConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.example.MystarterConfig",
+      "name": "mystarter.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.MystarterConfig",
+      "name": "mystarter.version",
+      "type": "java.lang.String"
+    }
+  ]
+}

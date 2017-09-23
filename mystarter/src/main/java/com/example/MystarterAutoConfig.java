@@ -13,11 +13,12 @@ import org.springframework.context.annotation.Configuration;
 @ConditionOnMystarter
 @EnableConfigurationProperties(MystarterConfig.class)
 public class MystarterAutoConfig {
-    @Autowired
-    private MystarterConfig mystarterCondition;
 
-    @Bean
-    public MystartService mystartService() {
-        return new SysoutMystartService(this.mystarterCondition);
-    }
+	@Autowired
+	private MystarterConfig mystarterCondition;
+
+	@Bean
+	public MystartService mystartService() {
+		return new SysoutMystartService(this.mystarterCondition);
+	}
 }

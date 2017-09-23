@@ -1,5 +1,6 @@
 com/example/impl/SysoutMystartService.class
 com/example/MystartService.class
+META-INF/spring-configuration-metadata.json
 com/example/ConditionOnMystarter.class
 com/example/MystarterConfig.class
 com/example/MystarterCondition.class
